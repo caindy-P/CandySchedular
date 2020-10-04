@@ -1,14 +1,15 @@
-package com.example.candyschedular;
+package com.example.candyschedular.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import com.example.candyschedular.R;
 
-public class MainActivity extends AppCompatActivity {
+public class CalenderActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_calender);
     }
 }
